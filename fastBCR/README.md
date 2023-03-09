@@ -174,8 +174,7 @@ library(fastBCR)
 data("input")
 junc.len(input, "AA")
 ```
-
-<img src=“man/figures/README-junc.len-1.png” width=“50%”>
+<img src="man/figures/README-junc.len-1.png" width="50%" />
 
 #### Plot of evolutionary tree and multiple sequences alignment (MSA)
 
