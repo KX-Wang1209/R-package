@@ -2,30 +2,20 @@
 % Please edit documentation in R/Evolutionary_Analysis.R
 \name{SHM.sample}
 \alias{SHM.sample}
-\title{Function: Calculation of SHM ratios in different isotypes in each sample}
+\title{Function: Boxplot of SHM ratios in four isotypes in different samples}
 \usage{
-SHM.sample(df)
-
 SHM.sample(df)
 }
 \arguments{
-\item{df}{A data.frame formed by binding SHM ratios in four isotypes  (calculated by 'SHM.sample(bcr_clusters)') from multiple samples}
-
-\item{bcr_clusters}{clonal families inferred by fastBCR}
+\item{df}{A data.frame formed by binding SHM ratios in four isotypes  (calculated by 'SHM.iso(bcr_clusters)') from multiple samples}
 }
 \value{
-four SHM ratio in different isotypes ("IGHD", "IGHM", "IGHA", and "IGHG") calculated by all clusters inferred from a repertoire
-
 A boxplot showing SHM ratios in four isotypes ("IGHD", "IGHM", "IGHA", "IGHG"). Statistical significances are evaluated with the Wilcoxon rank-sum test (two-sided `*P <= 0.05; **P <= 0.01; ***P <= 0.001; ****P <= 0.001`). For brevity, ns (non-significant) is not shown.
 }
 \description{
-Calculate SHM ratios in different isotypes of all clusters inferred from a repertoire.
-
 Plot boxplot of SHM ratios in four isotypes in different samples. Statistical significances are evaluated
 }
 \examples{
-data("bcr_clusters")
-SHM.sample(bcr_clusters)
 data("SHM_ratio_1")
 data("SHM_ratio_2")
 data("SHM_ratio_3")

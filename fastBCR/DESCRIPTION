@@ -11,9 +11,9 @@ LazyData: true
 Depends: 
     R (>= 4.2.0),
     ggplot2,
-    network,
+    statnet,
     ggmsa,
-    msa
+    msa,
 Imports:
     dplyr,
     Biostrings,

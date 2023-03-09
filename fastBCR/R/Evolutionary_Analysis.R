@@ -256,8 +256,8 @@ SeqDist <- function(x, y) {
 #'
 #' @examples
 #' data("bcr_clusters")
-#' SHM.sample(bcr_clusters)
-SHM.sample <- function(bcr_clusters) {
+#' SHM.iso(bcr_clusters)
+SHM.iso <- function(bcr_clusters) {
   isotypes <- c("IGHD", "IGHM", "IGHA", "IGHG")
   all.dist <- rep(0, 4)
   all.len <- rep(0, 4)
@@ -298,7 +298,7 @@ SHM.sample <- function(bcr_clusters) {
 #' Function: Boxplot of SHM ratios in four isotypes in different samples
 #'
 #' Plot boxplot of SHM ratios in four isotypes in different samples. Statistical significances are evaluated
-#' @param df A data.frame formed by binding SHM ratios in four isotypes  (calculated by 'SHM.sample(bcr_clusters)') from multiple samples
+#' @param df A data.frame formed by binding SHM ratios in four isotypes  (calculated by 'SHM.iso(bcr_clusters)') from multiple samples
 #'
 #' @return A boxplot showing SHM ratios in four isotypes ("IGHD", "IGHM", "IGHA", "IGHG"). Statistical significances are evaluated with the Wilcoxon rank-sum test (two-sided `*P <= 0.05; **P <= 0.01; ***P <= 0.001; ****P <= 0.001`). For brevity, ns (non-significant) is not shown.
 #' @export
