@@ -55,7 +55,7 @@ in the table:
 ``` r
 ## "sequence_id": Unique query sequence identifier for the Rearrangement. Most often this will be the input sequence header or a substring thereof, but may also be a custom identifier defined by the tool in cases where query sequences have been combined in some fashion prior to alignment. When downloaded from an AIRR Data Commons repository, this will usually be a universally unique record locator for linking with other objects in the AIRR Data Model.
 ## "v_call": V gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHV4-59*01 if using IMGT/GENE-DB).
-## "j_call": Second D gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHD3-10*01 if using IMGT/GENE-DB).
+## "j_call": J gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHJ4*02 if using IMGT/GENE-DB).
 ## "junction_aa": Amino acid translation of the junction.
 ## "junction": Junction region nucleotide sequence, where the junction is defined as the CDR3 plus the two flanking conserved codons. (Optional. Needed for evolutionary tree construction.)
 ## "c_call": Constant region gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHG1*01 if using IMGT/GENE-DB). (Optional. Needed for isotypes related analyis.)
