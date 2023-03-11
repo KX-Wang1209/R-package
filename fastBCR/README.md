@@ -57,8 +57,8 @@ in the table:
 ## "v_call": V gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHV4-59*01 if using IMGT/GENE-DB).
 ## "j_call": J gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHJ4*02 if using IMGT/GENE-DB).
 ## "junction_aa": Amino acid translation of the junction.
-## "junction": Junction region nucleotide sequence, where the junction is defined as the CDR3 plus the two flanking conserved codons. (Optional. Needed for evolutionary tree construction.)
-## "c_call": Constant region gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHG1*01 if using IMGT/GENE-DB). (Optional. Needed for isotypes related analyis.)
+## "junction" (Optional. Needed for evolutionary tree construction.): Junction region nucleotide sequence, where the junction is defined as the CDR3 plus the two flanking conserved codons. 
+## "c_call" (Optional. Needed for isotypes related analyis.): Constant region gene with allele. If referring to a known reference sequence in a database the relevant gene/allele nomenclature should be followed (e.g., IGHG1*01 if using IMGT/GENE-DB). 
 ```
 
 ## Example
